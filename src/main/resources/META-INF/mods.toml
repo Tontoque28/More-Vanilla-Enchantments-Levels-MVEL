@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/Tontoque28/MVEL/issues"
+
+[[mods]]
+modId="mvel"
+version="1.0.2"
+displayName="More Vanilla Enchantments Levels"
+updateJSONURL="https://github.com/Tontoque28/MVEL/files/update.json"
+displayURL="https://github.com/Tontoque28/MVEL"
+logoFile="META-INF/icon.png"
+credits="Tontoque28"
+authors="Tontoque28"
+description='''
+Increases the maximum levels of vanilla enchantments to complement harder gameplay.
+'''
+[[dependencies.mvel]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mvel]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
