@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mvel",
+  "version": "${version}",
+  "name": "More Vanilla Enchantments Levels",
+  "description": "Increases the maximum levels of vanilla enchantments to complement harder gameplay.",
+  "authors": [
+    "Tontoque28"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Tontoque28/MVEL",
+    "issues": "https://github.com/Tontoque28/MVEL/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/mvel/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tontoque28.mvel.MVEL"
+    ]
+  },
+  "mixins": [
+    "mvel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
