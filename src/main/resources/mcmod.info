@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "mvel",
+    "name": "More Vanilla Enchantments Levels",
+    "description": "Aumenta el nivel maximo de los encantamientos de vainilla mediante un coremod ASM.",
+    "version": "1.0.2",
+    "mcversion": "1.12.2",
+    "logoFile": "icon.png",
+    "authorList": ["Tontoque28"]
+  }
+]
