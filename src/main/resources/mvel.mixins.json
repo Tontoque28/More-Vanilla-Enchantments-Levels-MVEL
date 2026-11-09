@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tontoque28.mvel.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["EnchantmentMixin"],
+  "injectors": {"defaultRequire": 1}
+}
